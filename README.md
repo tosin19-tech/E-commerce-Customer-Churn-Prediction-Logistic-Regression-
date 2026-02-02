@@ -91,8 +91,40 @@ The model performs well at identying non-churners, with room to improve recall f
 
 ## Churn Probabilty Ranking 
 The model outputs churn probabilties, allowing customers to be ranking by risk. 
+Example (Top High-Risk Customers)
+
+CustomerID        Churn Probability
+1682              0.943
+860               0.935
+3168              0.933
+1942              0.908
+488               0.904
 
 
+### Key Business Insights
+* Short customer tenure is a major churn indicatoe.
+* Complaints dramatically increase churn risk.
+* Inactivity after purchase is an early churn signal.
+* Satisfaction scores may require validation.
+
+
+## Recommendations
+1. Early Retention Programs for new customers.
+2. Complaint Resolution SLAs with churn alerts.
+3. Proactive Re-engagement after last order inactivity.
+4. Customer Risk Scoring embedded into CRM.
+5. Survey Redesign to validate satisfaction scoring.
+
+## Tools & Technologies
+* SQL
+* Python
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* Scikit-learn
+* Jupyter Notebook
+
+  
+  
 
 
 
