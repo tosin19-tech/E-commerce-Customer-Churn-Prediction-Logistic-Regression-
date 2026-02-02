@@ -56,6 +56,64 @@ Insight:
   - Survey scale reversal
   - Post-purchase dissatisfaction
   - Incentivized but disengaged customers
+ 
+4. Complaint vs Churn
+
+Insight: 
+* Customers who complained are 3X more likely to churn
+* Complain status is a strong churn signal
+
+## Predictive Modeling
+
+Model Used
+
+* Logistoc Regression
+* Binary classification (Churn / No Churn)
+
+### Why Logistic Regression?
+* Interpretable
+* Probabilistic output
+* Suitable for churn prediction problems
+
+
+### Model Evaluation 
+Confusion Matrix 
+
+Interpretation (Business-Friendly): 
+
+* True Negatives (945): Customers correctly predictly to stay
+* False Positives (36): Customers predicted to churn but actually stayed
+* False Negatives (113): Customers predicted to stay but churned
+* True Positives (89): Customers correctly predictly to churn
+
+The model performs well at identying non-churners, with room to improve recall for churners. 
+
+
+## Churn Probabilty Ranking 
+The model outputs churn probabilties, allowing customers to be ranking by risk. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 
